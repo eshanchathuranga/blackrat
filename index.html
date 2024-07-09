@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Title -->
+	<title>Login Page </title>
+
+	<style>
+		body {
+			background: black;
+			color: white;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		form {
+			text-align: center;
+		}
+		label {
+			width: 100%;
+			max-width: 100px;
+			display: inline-block;
+			text-align: right;
+			margin: 10px;
+		}
+
+		div {
+			margin-top: 1em;
+		}
+		button {
+			background: red;
+			border: none;
+			width: 70px;
+			height: 30px;
+			color: white;
+		}
+
+	</style>
+
+</head>
+<center>
+<body>
+ <form action="./home.html" >
+	<div>
+		<h2>Simple Login Script Demo</h2>
+	</div>	
+	<div>
+		 <label>Username</label>
+		<input id="username" type="text" name="text" required>
+	</div>
+	<div>
+		<label>Password</label>
+		<input id="pass" type="password" name="password" required>
+	</div>
+	<div>
+		<button id="login" type="submit" > Login </button>
+	</div>
+	
+</form>
+
+
+</body>
+</center>
+   <script src="./login.js"></script>
+</html>
